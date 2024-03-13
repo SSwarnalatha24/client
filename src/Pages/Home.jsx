@@ -6,7 +6,7 @@ import axios from "axios";
 //import Clock from 'react-clock';
 import Clock from "./Clock";
 import Calendar from 'react-calendar';
-import logo1 from "./tagdart.jpg"
+import logo1 from "./sss.gif";
 import BreakTimer from "./SysInactive";
 export default function Home() {
   const storedUser = JSON.parse(sessionStorage.getItem("user"));
