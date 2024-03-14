@@ -53,10 +53,12 @@ export default function Home() {
 
       ) : null}
       
-        
+        <div className="clock-container">
+      < Clock />
+      </div>
       
       <div >
-      < Clock />
+     
      
 
               <img
