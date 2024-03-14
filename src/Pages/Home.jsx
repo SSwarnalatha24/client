@@ -6,7 +6,7 @@ import axios from "axios";
 //import Clock from 'react-clock';
 import Clock from "./Clock";
 import Calendar from 'react-calendar';
-import logo1 from "./sss.gif";
+import logo1 from "./sss.gif"; 
 import BreakTimer from "./SysInactive";
 export default function Home() {
   const storedUser = JSON.parse(sessionStorage.getItem("user"));
@@ -66,9 +66,7 @@ export default function Home() {
                 
                 
                 </div>
-                <div  className="calendar-container">
-        <Calendar />
-      </div>
+           
                  <footer >
     <p>&copy; 2024 Darttag. All rights reserved.</p>
   </footer>
