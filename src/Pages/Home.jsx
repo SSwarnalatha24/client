@@ -38,7 +38,11 @@ export default function Home() {
       {activeuser ? (<div className="active-user text-black-100 text-xxl">
         
         <span className="user-name text-yellow-400">WELCOME🎯{activeuser}</span>   
-        {isActive ? (
+        <div>
+      <h1>{isActive ? 'Active' : 'Inactive'}</h1>
+      <p>Do Something Buddy</p>
+    </div>
+{/*         {isActive ? (
         <p>You are active!</p>
         
       ) : (
@@ -47,7 +51,7 @@ export default function Home() {
          
         </p>
         
-      )}
+      )} */}
       {/* Your component content */}
       </div>
 
