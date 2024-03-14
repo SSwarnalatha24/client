@@ -63,4 +63,10 @@ h1 {
     color: black;
     border-radius: 15px;
  }
+.clock-container{
+    font-size: xx-small;
+    font-style: italic;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
